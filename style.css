@@ -1,0 +1,204 @@
+
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:arial;font-size:15px;line-height:25px;color:#333;
+}
+h1,h2,h3,h4,h5,h5,h6{
+	font-family:arial black;
+}
+img{
+	max-width:100%;
+	box-shadow: 4px 2px 6px 2px;
+	border: 1px solid #ddd;
+}
+#section-title{text-align:center;}
+#service-section div#section-title {
+    color: white; 
+}
+#section-title{
+	  font-size: 30px;
+    margin-bottom: 40px;
+}
+#section-title span{
+	color: #FF5722;
+}
+#service-section{
+	background: #042d34;
+	
+}
+section{
+	padding:50px 0px;
+	overflow:hidden;
+}
+.allblocks {
+    width: 1170px;
+    padding:20px 0px;
+    margin: auto;
+}
+.serviceblock {
+    width: 334px;
+    background: #fff;
+    overflow: hidden;
+    line-height: 20px;
+    color: #333;
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 10px;
+    animation-name:babu;
+    animation-duration:1s;
+}
+@keyframes babu{
+	 from{transform:scale(0.1)rotate(0deg)}
+	 to{transform:scale(1)rotate(360deg)}
+}
+.serviceblock:hover{
+	background:transparent;
+	color:white;
+	cursor:pointer;
+	transition:all 1s;
+	transform:translateY(-10px);
+}
+.serviceblock:hover i{
+	color:white;
+}
+.serviceblock:hover .rightcontent h2{
+	transform:translateX(100px)
+	
+}
+.lefticon,.rightcontent{display:inline-block;}
+.lefticon {
+    float: left;
+    width: 70px;
+    font-size: 50px;
+    margin-top: 30px;
+    color: #FF5722;
+}
+.rightcontent{
+	float:right;
+	width:250px;
+}
+.rightcontent h2{
+	margin-bottom:10px;
+	transition:all 1s;
+}
+.rightcontent p{
+	font-size:13px;
+}
+.leftabout {
+    float: left;
+    width: 400px;
+    background: #ddd;
+    border: 1px solid #fff;
+    box-shadow: 5px 6px 50px -8px black;
+}
+.rightabout {
+    float: right;
+    width: 700px;
+}
+.leftabout,.rightabout{
+	display:inline-block;
+}
+.allabout{
+	padding:30px 0px;
+	overflow:hidden;
+}
+.rightabout h2 {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+.rightabout p{
+	font-size:16px;
+	color:#999;
+}
+footer{
+	background:black;
+	color:white;
+	
+}
+nav{
+	background:white;
+	padding: 10px 3px;
+	overflow: hidden;
+}
+#mainnav{
+	width:1170px;
+	margin:auto;
+}
+#mainmenu{
+	float:right;
+	list-style:none;
+}
+#mainmenu li{
+	display:inline-block;
+}
+#mainmenu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;  
+    color: #444;
+    font-weight: bold;
+	transition:all 1s;
+	font-size:16px;
+	display:block;
+}
+#mainmenu li a:hover{
+	background:#042d34;
+	color:white;
+	transform:scale(1.3);
+	
+}
+.mainlogo{
+	float:left;
+	width:120px;
+}
+.menulist{
+	float:right;
+	margin-top: 10px;
+}
+.serviceimage{
+	width:400px;
+	display:inline-block;
+	margin: 5px;
+	margin-top: 60px;
+}
+.serviceimage:hover{
+	transform:translateY(-20px);
+	transition:all 1s;
+	cursor:pointer;
+}
+.serviceimage:hover h2{
+	color:red;
+}
+.serviceimage h2{
+	margin-bottom:10px;
+	padding-bottom: 6px;
+	text-align: center;
+	color:white;
+}
+.allimage{
+	float:left;
+}
+.allblocksimage{
+	 width:1250px;
+	 margin:auto;
+}
+.babu{
+	width:300px;
+}
+#aboutteam{
+	background:url(images/game.jpg);
+	background-size:cover;
+	background-position:center;
+}
+
+
+
+
+
